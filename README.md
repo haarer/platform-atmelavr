@@ -1,6 +1,7 @@
-# Atmel AVR: development platform for [PlatformIO](http://platformio.org)
-[![Build Status](https://travis-ci.org/platformio/platform-atmelavr.svg?branch=develop)](https://travis-ci.org/platformio/platform-atmelavr)
-[![Build status](https://ci.appveyor.com/api/projects/status/ympddo5w1osqx6qr/branch/develop?svg=true)](https://ci.appveyor.com/project/ivankravets/platform-atmelavr/branch/develop)
+# Fork of Atmel AVR: development platform for [PlatformIO](http://platformio.org)
+
+The Motivation for the fork is to provide current toolchain from my toolchain project to platformio users. 
+I recently tried using platformio as a development tool and like it very much. Because of its modular architecture it is very easy to support it with different toolchains, board definitions and so one. 
 
 Atmel AVR 8- and 32-bit MCUs deliver a unique combination of performance, power efficiency and design flexibility. Optimized to speed time to market-and easily adapt to new ones-they are based on the industrys most code-efficient architecture for C and assembly programming.
 
@@ -12,20 +13,18 @@ Atmel AVR 8- and 32-bit MCUs deliver a unique combination of performance, power 
 1. [Install PlatformIO](http://platformio.org)
 2. Create PlatformIO project and configure a platform option in [platformio.ini](http://docs.platformio.org/page/projectconf.html) file:
 
-## Stable version
+## Default version
 
 ```ini
-[env:stable]
 platform = atmelavr
 board = ...
 ...
 ```
 
-## Development version
+## My version
 
 ```ini
-[env:development]
-platform = https://github.com/platformio/platform-atmelavr.git
+platform = https://github.com/haarer/platform-atmelavr.git
 board = ...
 ...
 ```
