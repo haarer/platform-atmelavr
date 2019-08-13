@@ -30,7 +30,7 @@
     }
   },
   "packages": {
-    "toolchain-atmelavr-current": {
+    "toolchain-avr-current": {
       "type": "toolchain",
       "version": "~9.2.0"
     },
