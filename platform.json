@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/haarer/platform-atmelavr.git"
   },
-  "version": "1.14.0",
+  "version": "1.15.0",
   "packageRepositories": [
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json",
@@ -32,7 +32,7 @@
   "packages": {
     "toolchain-atmelavr-current": {
       "type": "toolchain",
-      "version": "~gcc9.2.0"
+      "version": "~9.2.0"
     },
     "framework-arduinoavr": {
       "type": "framework",
