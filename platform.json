@@ -1,5 +1,5 @@
 {
-  "name": "atmelavr_newgcc",
+  "name": "atmelavr",
   "title": "Atmel AVR",
   "description": "Supports Atmel AVR 8- and 32-bit MCUs. Fork of atmelavr platform, featuring latest toolchain builds. https://github.com/haarer/toolchain68k",
   "url": "http://www.atmel.com/products/microcontrollers/avr/default.aspx",
