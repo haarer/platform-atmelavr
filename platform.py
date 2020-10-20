@@ -15,11 +15,11 @@
 from platformio.managers.platform import PlatformBase
 
 
-class AtmelavrPlatform(PlatformBase):
+class AtmelavrcurrentPlatform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if not variables.get("board"):
-            return super(AtmelavrPlatform, self).configure_default_packages(
+            return super(AtmelavrcurrentPlatform, self).configure_default_packages(
                 variables, targets)
 
         build_core = variables.get(
@@ -58,7 +58,7 @@ class AtmelavrPlatform(PlatformBase):
         if disabled_tool in self.packages and disabled_tool != required_tool:
             del self.packages[disabled_tool]
 
-        return super(AtmelavrPlatform, self).configure_default_packages(
+        return super(AtmelavrcurrentPlatform, self).configure_default_packages(
             variables, targets)
 
     def on_run_err(self, line):  # pylint: disable=R0201
