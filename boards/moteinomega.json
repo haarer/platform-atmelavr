@@ -4,17 +4,14 @@
     "extra_flags": "-DARDUINO_AVR_MOTEINOMEGA",
     "f_cpu": "16000000L",
     "mcu": "atmega1284p",
-    "variant": "MoteinoMEGA"
+    "variant": "moteinomega"
+  },
+  "debug": {
+    "simavr_target": "atmega1284p"
   },
   "frameworks": [
     "arduino"
   ],
-  "fuses": {
-    "efuse": "0xFD",
-    "hfuse": "0xDE",
-    "lfuse": "0xDE",
-    "lock": "0xCF"
-  },
   "name": "LowPowerLab MoteinoMEGA",
   "upload": {
     "maximum_ram_size": 16384,

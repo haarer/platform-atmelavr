@@ -6,13 +6,12 @@
     "mcu": "atmega328p",
     "variant": "standard"
   },
+  "debug": {
+    "simavr_target": "atmega328p"
+  },
   "frameworks": [
     "arduino"
   ],
-  "fuses": {
-    "efuse": "0x05",
-    "hfuse": "0xDA"
-  },
   "name": "Anarduino MiniWireless",
   "upload": {
     "maximum_ram_size": 2048,

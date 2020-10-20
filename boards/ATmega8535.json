@@ -4,7 +4,10 @@
     "extra_flags": "-DARDUINO_AVR_ATmega8535",
     "f_cpu": "16000000L",
     "mcu": "atmega8535",
-    "variant": "mightycore_standard"
+    "variant": "standard"
+  },
+  "bootloader":{
+    "led_pin": "B0"
   },
   "frameworks": [
     "arduino"

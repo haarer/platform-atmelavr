@@ -4,7 +4,13 @@
     "extra_flags": "-DARDUINO_AVR_ATmega1281",
     "f_cpu": "16000000L",
     "mcu": "atmega1281",
-    "variant": "megacore_64-pin-avr"
+    "variant": "64-pin-avr"
+  },
+  "bootloader":{
+    "led_pin": "B5"
+  },
+  "debug": {
+    "simavr_target": "atmega1281"
   },
   "frameworks": [
     "arduino"

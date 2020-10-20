@@ -4,12 +4,18 @@
     "extra_flags": "-DARDUINO_AVR_ATmega48P",
     "f_cpu": "16000000L",
     "mcu": "atmega48p",
-    "variant": "minicore_standard"
+    "variant": "standard"
+  },
+  "bootloader":{
+    "led_pin": "B5"
+  },
+  "debug": {
+    "simavr_target": "atmega48p"
   },
   "frameworks": [
     "arduino"
   ],
-  "name": "ATmega8P/PA",
+  "name": "ATmega48P/PA",
   "upload": {
     "maximum_ram_size": 512,
     "maximum_size": 4096,

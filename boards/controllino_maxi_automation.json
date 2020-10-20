@@ -24,13 +24,12 @@
     "mcu": "atmega2560",
     "variant": "Controllino_maxi_automation"
   },
+  "debug": {
+    "simavr_target": "atmega2560"
+  },
   "frameworks": [
     "arduino"
   ],
-  "fuses": {
-    "lfuse": "0xFF",
-    "lock": "0x0F"
-  },
   "name": "Controllino Maxi Automation",
   "upload": {
     "maximum_ram_size": 8192,

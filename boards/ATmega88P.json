@@ -4,7 +4,13 @@
     "extra_flags": "-DARDUINO_AVR_ATmega88P",
     "f_cpu": "16000000L",
     "mcu": "atmega88p",
-    "variant": "minicore_standard"
+    "variant": "standard"
+  },
+  "bootloader":{
+    "led_pin": "B5"
+  },
+  "debug": {
+    "simavr_target": "atmega88p"
   },
   "frameworks": [
     "arduino"

@@ -4,7 +4,10 @@
     "extra_flags": "-DARDUINO_AVR_ATmega32",
     "f_cpu": "16000000L",
     "mcu": "atmega32",
-    "variant": "mightycore_standard"
+    "variant": "standard"
+  },
+  "bootloader":{
+    "led_pin": "B0"
   },
   "frameworks": [
     "arduino"

@@ -4,7 +4,13 @@
     "extra_flags": "-DARDUINO_AVR_ATmega328",
     "f_cpu": "16000000L",
     "mcu": "atmega328",
-    "variant": "minicore_standard"
+    "variant": "standard"
+  },
+  "bootloader":{
+    "led_pin": "B5"
+  },
+  "debug": {
+    "simavr_target": "atmega328"
   },
   "frameworks": [
     "arduino"

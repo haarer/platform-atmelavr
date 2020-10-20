@@ -1,10 +1,13 @@
 {
   "build": {
-    "core": "digispark_tiny",
+    "core": "dtiny",
     "extra_flags": "-DARDUINO_AVR_DIGISPARK",
     "f_cpu": "16500000L",
     "mcu": "attiny85",
     "variant": "digispark"
+  },
+  "debug": {
+    "simavr_target": "attiny85"
   },
   "frameworks": [
     "arduino"

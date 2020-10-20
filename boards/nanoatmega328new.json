@@ -6,14 +6,21 @@
     "mcu": "atmega328p",
     "variant": "eightanaloginputs"
   },
-  "frameworks": [
-    "arduino"
-  ],
-  "fuses": {
-    "efuse": "0x05",
+  "bootloader": {
+    "efuse": "0xFD",
+    "file": "optiboot/optiboot_atmega328.hex",
     "hfuse": "0xDA",
-    "lfuse": "0xFF"
+    "lock_bits": "0x0F",
+    "lfuse": "0xFF",
+    "unlock_bits": "0x3F"
   },
+  "debug": {
+    "simavr_target": "atmega328p"
+  },
+  "frameworks": [
+    "arduino",
+    "simba"
+  ],
   "name": "Arduino Nano ATmega328 (New Bootloader)",
   "upload": {
     "maximum_ram_size": 2048,

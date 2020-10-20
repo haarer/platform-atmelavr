@@ -12,14 +12,12 @@
     "mcu": "atmega2560",
     "variant": "fysetcf6"
   },
+  "debug": {
+    "simavr_target": "atmega2560"
+  },
   "frameworks": [
     "arduino"
   ],
-  "fuses": {
-    "efuse": "0xFD",
-    "hfuse": "0xD8",
-    "lfuse": "0xFF"
-  },
   "name": "FYSETC F6 V1.3",
   "upload": {
     "maximum_ram_size": 8192,
