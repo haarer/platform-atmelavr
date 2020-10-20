@@ -39,8 +39,8 @@
   "packages": {
     "toolchain-avr-current": {
       "type": "toolchain",
-      "owner": "platformio",
-      "version": ">=8.2.0"
+      "owner": "haarer",
+      "version": "https://github.com/haarer/toolchain68k/releases/download/gcc920/toolchain-avr-Debian-gcc-9.2.0.tar.gz"
     },
     "framework-arduino-avr": {
       "type": "framework",
