@@ -1,9 +1,9 @@
 {
-  "name": "atmelavr",
-  "title": "Atmel AVR",
+  "name": "atmelavr-current",
+  "title": "Atmel AVR with up to date toolchain builds",
   "description": "Supports Atmel AVR 8- and 32-bit MCUs. Fork of atmelavr platform, featuring latest toolchain builds. https://github.com/haarer/toolchain68k",
   "url": "http://www.atmel.com/products/microcontrollers/avr/default.aspx",
-  "homepage": "http://platformio.org/platforms/atmelavr",
+  "homepage": "https://github.com/haarer/platform-atmelavr",
   "license": "Apache-2.0",
   "keywords": [
       "dev-platform",
