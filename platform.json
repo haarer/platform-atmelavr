@@ -13,18 +13,13 @@
       "8-bit"
   ],
   "engines": {
-    "platformio": "<5"
+    "platformio": "^5"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/haarer/platform-atmelavr.git"
   },
   "version": "2.2.0",
-  "packageRepositories": [
-    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json",
-    "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json"
-  ],
   "frameworks": {
     "arduino": {
       "package": "framework-arduino-avr",
@@ -39,7 +34,7 @@
     "toolchain-avr-current": {
       "type": "toolchain",
       "owner": "haarer",
-      "version": "https://github.com/haarer/toolchain68k/releases/download/gcc920/toolchain-avr-Debian-gcc-9.2.0.tar.gz"
+      "version": ">=8.2.0"
     },
     "framework-arduino-avr": {
       "type": "framework",
