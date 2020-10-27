@@ -16,7 +16,7 @@ Atmel AVR 8- and 32-bit MCUs deliver a unique combination of performance, power 
 1. [Install PlatformIO](http://platformio.org)
 2. Create PlatformIO project and configure a platform option in [platformio.ini](http://docs.platformio.org/page/projectconf.html) file:
 
-## Default version
+## Default version of the platform, provided by platformio, selecting a stock gcc 5.4.0 
 
 ```ini
 platform = atmelavr
@@ -24,7 +24,7 @@ board = ...
 ...
 ```
 
-## My version
+## My version of the platform, automatically selecting a newer gcc build, (currently 9.2.0)
 
 ```ini
 platform = https://github.com/haarer/platform-atmelavr.git
