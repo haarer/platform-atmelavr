@@ -34,7 +34,7 @@
     "toolchain-avr-current": {
       "type": "toolchain",
       "owner": "haarer",
-      "version": ">=8.2.0"
+      "version": ">=10.2.0"
     },
     "framework-arduino-avr": {
       "type": "framework",
